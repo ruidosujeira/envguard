@@ -13,7 +13,7 @@
 
 [![Go](https://img.shields.io/badge/Go-1.22+-00ADD8?logo=go)](https://go.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/romano/envguard/actions/workflows/ci.yml/badge.svg)](https://github.com/romano/envguard/actions)
+[![CI](https://github.com/ruidosujeira/envguard/actions/workflows/ci.yml/badge.svg)](https://github.com/romano/envguard/actions)
 
 A linter, validator, and synchronizer for `.env` files. Catches duplicate keys, typos, exposed secrets, sync drift, and formatting issues — before they break production.
 
@@ -21,7 +21,7 @@ A linter, validator, and synchronizer for `.env` files. Catches duplicate keys, 
 
 ```bash
 # Go
-go install github.com/romano/envguard/cmd/envguard@latest
+go install github.com/ruidosujeira/envguard/cmd/envguard@latest
 
 # Homebrew (coming soon)
 # brew install envguard
